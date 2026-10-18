@@ -29,7 +29,7 @@ graph LR
 
     WSTRACE --> TUI["Interactive TUI & Stream"]
     PGM --> DB["LSM SSTables & OLAP Engines"]
-    WINDHAWK --> SHELL["Process RAM, Timer & Explorer Hooks"]
+    WINDHAWK --> SHELL["Taskbar & Explorer Shell Hooks"]
 
     click WSTRACE "https://github.com/gilnett/wstrace" "Open wstrace repo"
     click PGM "https://github.com/gilnett/learned_index_lab" "Open learned_index_lab repo"
@@ -59,12 +59,15 @@ graph LR
 
 ### Windows Internals & Windhawk Mods (C++ / Win32 Hooking)
 
-Author of high-performance mods for the [Windhawk](https://windhawk.net/) engine, focusing on low-level Win32 hooks, memory safety, and thread-safe OS tuning:
+Author of production mods for the [Windhawk](https://windhawk.net/) platform, focusing on low-level Win32 hooks, memory safety, and thread-safe OS tuning:
 
-- **Smart Process Priority & RAM Optimizer**: Dynamic working-set memory trimming, background CPU throttling, and intelligent priority scheduling.
-- **Quick Search for Windows / Explorer Search Everything**: Low-latency search injection hooking directly into Windows Explorer and the Everything search engine.
-- **System Timer Resolution Optimizer**: Sub-millisecond timer resolution tuning minimizing interrupt latency and frame jitter.
-- **Explorer Details Better File Sizes & Taskbar Enhancements**: Precision shell hooks for Windows Explorer and Shell taskbar UX.
+#### Published Mods:
+- **[Taskbar Volume Percentage Indicator](https://windhawk.net/mods/taskbar-volume-percentage)**: Replaces the Windows 11 system tray volume icon with real-time master volume level percentage.
+- **[Hide Taskbar Tooltips](https://windhawk.net/mods/hide-taskbar-tooltips)**: Suppresses native Windows 11 XAML hover tooltips in Explorer, with selective area filtering for taskbar apps and tray icons.
+
+#### Upcoming Mods:
+- `[Coming Soon]` **Smart Process Priority & RAM Optimizer**: Dynamic working-set memory trimming, background CPU throttling, and intelligent priority scheduling.
+- `[Coming Soon]` **Quick Search for Windows / Explorer Search Everything**: Low-latency search injection hooking directly into Windows Explorer and the Everything search engine.
 
 ---
 
@@ -78,17 +81,3 @@ Author of high-performance mods for the [Windhawk](https://windhawk.net/) engine
   <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gilnett&layout=compact&theme=github_dark&hide_border=true" width="48%" alt="Top Languages" />
 </p>
-
----
-
-<details>
-<summary><b>Detailed Benchmark Snapshot (learned_index_lab v0.2.0)</b></summary>
-<br/>
-
-| Structure | Hit Latency | Miss Latency | Index Memory (1M Keys) |
-| :--- | :--- | :--- | :--- |
-| `BTreeMap` | ~216 ns | ~61 ns | 45.78 MB |
-| `slice::binary_search` | ~141 ns | ~40 ns | 0 KB (data resident) |
-| **`PGM-Index`** | **~48 ns** | **~38 ns** | **12.1 KB (-99.97%)** |
-
-</details>
