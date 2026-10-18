@@ -1,0 +1,28 @@
+<svg width="480" height="230" viewBox="0 0 480 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="230" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <text x="25" y="26" fill="#58a6ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">Multi-Language Ecosystem Distribution</text>
+  <circle cx="35" cy="52" r="6" fill="#dea584" />
+  <text x="52" y="56" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Rust</text>
+  <text x="180" y="56" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">35%</text>
+  <circle cx="35" cy="78" r="6" fill="#f34b7d" />
+  <text x="52" y="82" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">C++</text>
+  <text x="180" y="82" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">25%</text>
+  <circle cx="35" cy="104" r="6" fill="#3572a5" />
+  <text x="52" y="108" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">Python</text>
+  <text x="180" y="108" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">15%</text>
+  <circle cx="35" cy="130" r="6" fill="#178600" />
+  <text x="52" y="134" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">C#</text>
+  <text x="180" y="134" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">10%</text>
+  <circle cx="35" cy="156" r="6" fill="#5391fe" />
+  <text x="52" y="160" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">PowerShell</text>
+  <text x="180" y="160" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">8%</text>
+  <circle cx="35" cy="182" r="6" fill="#3178c6" />
+  <text x="52" y="186" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="500">TypeScript / JS</text>
+  <text x="180" y="186" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">7%</text>
+  <path d="M 360.00 45.00 A 75 75 0 0 1 420.68 164.08 L 393.98 144.69 A 42 42 0 0 0 360.00 78.00 Z" fill="#dea584" stroke="#0d1117" stroke-width="2" />
+  <path d="M 420.68 164.08 A 75 75 0 0 1 315.92 180.68 L 335.31 153.98 A 42 42 0 0 0 393.98 144.69 Z" fill="#f34b7d" stroke="#0d1117" stroke-width="2" />
+  <path d="M 315.92 180.68 A 75 75 0 0 1 285.00 120.00 L 318.00 120.00 A 42 42 0 0 0 335.31 153.98 Z" fill="#3572a5" stroke="#0d1117" stroke-width="2" />
+  <path d="M 285.00 120.00 A 75 75 0 0 1 299.32 75.92 L 326.02 95.31 A 42 42 0 0 0 318.00 120.00 Z" fill="#178600" stroke="#0d1117" stroke-width="2" />
+  <path d="M 299.32 75.92 A 75 75 0 0 1 328.07 52.14 L 342.12 82.00 A 42 42 0 0 0 326.02 95.31 Z" fill="#5391fe" stroke="#0d1117" stroke-width="2" />
+  <path d="M 328.07 52.14 A 75 75 0 0 1 360.00 45.00 L 360.00 78.00 A 42 42 0 0 0 342.12 82.00 Z" fill="#3178c6" stroke="#0d1117" stroke-width="2" />
+</svg>

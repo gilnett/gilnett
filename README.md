@@ -79,15 +79,6 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="60%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
+  <img src="language-distribution.svg" width="48%" alt="Language Distribution" />
 </p>
-
-```mermaid
-pie title Multi-Language Ecosystem Distribution
-    "Rust" : 35
-    "C++" : 25
-    "Python" : 15
-    "C#" : 10
-    "PowerShell" : 8
-    "TypeScript / JavaScript" : 7
-```
