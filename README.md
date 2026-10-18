@@ -3,14 +3,23 @@
 # Gilnett
 
 <a href="https://github.com/gilnett">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Low-Latency+Systems+Engineering+in+Rust;Windows+Internals+%26+Windhawk+Mod+Author;Author+of+wstrace+%26+learned_index_lab;Zero-Drop+ETW+%26+Win32+Hooking" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Low-Latency+Systems+Engineering+in+Rust;Windows+Internals+%26+Windhawk+Mod+Author;Author+of+wstrace+%26+learned_index_lab;Zero-Drop+ETW+%26+Win32+Hooking;High-Performance+C%2B%2B%2C+Rust%2C+C%23+%26+Python" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <a href="https://ko-fi.com/gilnet"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi" /></a>
-  <img src="https://img.shields.io/badge/Language-Rust_%7C_C%2B%2B-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust & C++" />
-  <img src="https://img.shields.io/badge/OS-Windows_Kernel_%26_Win32_Internals-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/Rust-CE412B?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Windows_Internals-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows" />
   <a href="https://windhawk.net"><img src="https://img.shields.io/badge/Windhawk-Mod_Author-d29922?style=flat-square&logo=cplusplus&logoColor=white" alt="Windhawk" /></a>
+  <a href="https://ko-fi.com/gilnet"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi" /></a>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,cpp,cs,python,powershell,ts,windows,git,github&theme=dark" alt="Skill Icons" />
 </p>
 
 </div>
@@ -71,6 +80,19 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 
 ---
 
+### Technical Stack & Language Matrix
+
+| Language / Domain | Primary Applications & Repositories | Key Frameworks & Technologies |
+| :--- | :--- | :--- |
+| **Rust** | [wstrace](https://github.com/gilnett/wstrace), [learned_index_lab](https://github.com/gilnett/learned_index_lab) | Kernel ETW tracing, PGM learned index algorithms, lock-free ring-buffers, ratatui TUI |
+| **C++ (Win32)** | [Windhawk Mods](https://windhawk.net/mods/taskbar-volume-percentage) | Low-level Win32 API hooking, Explorer Shell extensions, thread scheduling, UI non-blocking |
+| **C# / .NET** | Windows Shell & UI mods | WinUI 3, XAML, Windows Explorer & Taskbar integrations |
+| **Python** | Auditing & performance suites | Static code analysis, binary profiling, resource leak detection, automated benchmarks |
+| **PowerShell** | Tooling & package management | Windows deployment automation, WinGet / Scoop release automation |
+| **TypeScript / JS** | Dashboards & web tooling | Real-time observability webviews, interactive dashboards |
+
+---
+
 ### Activity & Performance Metrics
 
 <p align="center">
@@ -79,5 +101,5 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gilnett&layout=compact&theme=github_dark&hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gilnett&layout=compact&theme=github_dark&hide_border=true&fork=true" width="48%" alt="Top Languages" />
 </p>
