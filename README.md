@@ -49,15 +49,6 @@ graph LR
 
 ---
 
-### Featured Repositories
-
-| Project | Description | Performance Highlights |
-| :--- | :--- | :--- |
-| **[wstrace](https://github.com/gilnett/wstrace)** | Zero-overhead ETW tracer & system profiler | Sub-microsecond latency, lock-free ring-buffer, interactive TUI |
-| **[learned_index_lab](https://github.com/gilnett/learned_index_lab)** | PGM Learned Index structure in pure Rust | **4.45x faster** than BTreeMap, **99.97% less RAM**, zero-copy range queries |
-
----
-
 ### Windows Internals & Windhawk Mods (C++ / Win32 Hooking)
 
 Author of production mods for the [Windhawk](https://windhawk.net/) platform, focusing on low-level Win32 hooks, memory safety, and thread-safe OS tuning:
