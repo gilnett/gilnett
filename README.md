@@ -7,11 +7,11 @@
 </a>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,cpp,python&theme=dark" alt="Top 3 Languages: Rust, C++, Python" />
-</p>
-
-<p align="center">
-  <a href="https://ko-fi.com/gilnet">Support on Ko-fi</a> &nbsp;|&nbsp; <a href="https://windhawk.net">Windhawk Mod Author</a>
+  <img src="https://img.shields.io/badge/Rust-CE412B?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <a href="https://windhawk.net"><img src="https://img.shields.io/badge/Windhawk-Mod_Author-d29922?style=flat-square&logo=cplusplus&logoColor=white" alt="Windhawk" /></a>
+  <a href="https://ko-fi.com/gilnet"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi" /></a>
 </p>
 
 </div>
@@ -69,19 +69,6 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 #### Upcoming Mods:
 - `[Coming Soon]` **Smart Process Priority & RAM Optimizer**: Dynamic working-set memory trimming, background CPU throttling, and intelligent priority scheduling.
 - `[Coming Soon]` **Quick Search for Windows / Explorer Search Everything**: Low-latency search injection hooking directly into Windows Explorer and the Everything search engine.
-
----
-
-### Technical Stack & Language Matrix
-
-| Language / Domain | Primary Applications & Repositories | Key Frameworks & Technologies |
-| :--- | :--- | :--- |
-| **Rust** | [wstrace](https://github.com/gilnett/wstrace), [learned_index_lab](https://github.com/gilnett/learned_index_lab) | Kernel ETW tracing, PGM learned index algorithms, lock-free ring-buffers, ratatui TUI |
-| **C++ (Win32)** | [Windhawk Mods](https://windhawk.net/mods/taskbar-volume-percentage) | Low-level Win32 API hooking, Explorer Shell extensions, thread scheduling, UI non-blocking |
-| **Python** | Auditing & performance suites | Static code analysis, binary profiling, resource leak detection, automated benchmarks |
-| **C# / .NET** | Windows Shell & UI mods | WinUI 3, XAML, Windows Explorer & Taskbar integrations |
-| **PowerShell** | Tooling & package management | Windows deployment automation, WinGet / Scoop release automation |
-| **TypeScript / JS** | Dashboards & web tooling | Real-time observability webviews, interactive dashboards |
 
 ---
 
