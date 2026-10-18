@@ -7,15 +7,11 @@
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Rust-CE412B?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <a href="https://windhawk.net"><img src="https://img.shields.io/badge/Windhawk-Mod_Author-d29922?style=flat-square&logo=cplusplus&logoColor=white" alt="Windhawk" /></a>
-  <a href="https://ko-fi.com/gilnet"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi" /></a>
+  <img src="https://skillicons.dev/icons?i=rust,cpp,python&theme=dark" alt="Top 3 Languages: Rust, C++, Python" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,cpp,python&theme=dark" alt="Top 3 Languages" />
+  <a href="https://ko-fi.com/gilnet">Support on Ko-fi</a> &nbsp;|&nbsp; <a href="https://windhawk.net">Windhawk Mod Author</a>
 </p>
 
 </div>
@@ -98,3 +94,13 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="60%" alt="GitHub Stats" />
 </p>
+
+```mermaid
+pie title Multi-Language Ecosystem Distribution
+    "Rust" : 35
+    "C++" : 25
+    "Python" : 15
+    "C#" : 10
+    "PowerShell" : 8
+    "TypeScript / JavaScript" : 7
+```
