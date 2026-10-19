@@ -70,6 +70,6 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="language-distribution.svg" width="48%" alt="Language Distribution" />
+  <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=1800" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gilnett&theme=github_dark&hide_border=true&layout=compact&cache_seconds=1800" width="48%" alt="Top Languages" />
 </p>
