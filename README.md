@@ -20,32 +20,61 @@
 
 ### Core Engineering Focus
 
+<!-- OPTION 1: TABLE -->
+#### Option 1: Structured Table
+| Project | Domain | Tech Stack | Architecture & Role |
+| :--- | :--- | :--- | :--- |
+| **[wstrace](https://github.com/gilnett/wstrace)** | Windows Kernel Tracing | `Rust` `ETW` `Win32` | Zero-drop microsecond event capture, lock-free ring buffer & TUI |
+| **[learned_index_lab](https://github.com/gilnett/learned_index_lab)** | Learned Index Structures | `Rust` `PGM` `Eytzinger` | Mathematical CDF approximation replacing B-Trees in LSM/OLAP |
+| **[Windhawk Mods](https://windhawk.net)** | Windows Internals & Tuning | `C++` `Win32 Hooking` | Thread-safe OS injection, priority scheduling & memory trimming |
+
+<!-- OPTION 2: COMPACT MERMAID -->
+#### Option 2: Compact Graph
 ```mermaid
 graph LR
-    subgraph "Hardware & Kernel Boundary"
-        ETW["Windows ETW / Syscalls"] -->|Zero-drop lock-free| WSTRACE["<b>wstrace</b><br/><i>Microsecond Tracing</i>"]
-        RAM["DRAM & Cache Hierarchy"] -->|CDF PLA Regressions| PGM["<b>learned_index_lab</b><br/><i>PGM Learned Index</i>"]
-        HOOK["Win32 / Shell Hooking"] -->|Low-overhead injection| WINDHAWK["<b>Windhawk Mods</b><br/><i>OS Customization & Optimization</i>"]
+    subgraph S1[" "]
+        ETW["Windows ETW"] -->|Zero-drop| W["wstrace"]
+        RAM["Cache Hierarchy"] -->|CDF PLA| P["learned_index_lab"]
+        WIN["Win32 Hooking"] -->|Injection| M["Windhawk Mods"]
     end
 
-    WSTRACE --> TUI["Interactive TUI & Stream"]
-    PGM --> DB["LSM SSTables & OLAP Engines"]
-    WINDHAWK --> SHELL["Taskbar & Explorer Shell Hooks"]
+    W --> TUI["Interactive TUI"]
+    P --> DB["LSM / OLAP Engines"]
+    M --> OS["Shell & OS Tuning"]
 
-    click WSTRACE "https://github.com/gilnett/wstrace" "Open wstrace repo"
-    click PGM "https://github.com/gilnett/learned_index_lab" "Open learned_index_lab repo"
-    click WINDHAWK "https://windhawk.net" "Open Windhawk mods"
-
-    style WSTRACE fill:#1f2430,stroke:#58a6ff,stroke-width:2px,color:#fff
-    style PGM fill:#1f2430,stroke:#3fb950,stroke-width:2px,color:#fff
-    style WINDHAWK fill:#1f2430,stroke:#d29922,stroke-width:2px,color:#fff
-    style TUI fill:#161b22,stroke:#30363d,color:#8b949e
-    style DB fill:#161b22,stroke:#30363d,color:#8b949e
-    style SHELL fill:#161b22,stroke:#30363d,color:#8b949e
-    style ETW fill:#161b22,stroke:#30363d,color:#8b949e
-    style RAM fill:#161b22,stroke:#30363d,color:#8b949e
-    style HOOK fill:#161b22,stroke:#30363d,color:#8b949e
+    style S1 fill:none,stroke:none
+    style W fill:#161b22,stroke:#58a6ff,stroke-width:2px,color:#fff
+    style P fill:#161b22,stroke:#3fb950,stroke-width:2px,color:#fff
+    style M fill:#161b22,stroke:#d29922,stroke-width:2px,color:#fff
+    style ETW fill:#0d1117,stroke:#30363d,color:#8b949e
+    style RAM fill:#0d1117,stroke:#30363d,color:#8b949e
+    style WIN fill:#0d1117,stroke:#30363d,color:#8b949e
+    style TUI fill:#0d1117,stroke:#30363d,color:#8b949e
+    style DB fill:#0d1117,stroke:#30363d,color:#8b949e
+    style OS fill:#0d1117,stroke:#30363d,color:#8b949e
 ```
+
+<!-- OPTION 3: VISUAL CARDS -->
+#### Option 3: Visual Cards
+<table align="center" width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3><a href="https://github.com/gilnett/wstrace">wstrace</a></h3>
+      <p><code>Rust</code> · <code>ETW</code> · <code>Kernel</code></p>
+      <p><b>Low-latency tracing</b><br/>Zero-drop syscall & API monitor via lock-free ring buffers.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3><a href="https://github.com/gilnett/learned_index_lab">learned_index_lab</a></h3>
+      <p><code>Rust</code> · <code>PGM</code> · <code>Math</code></p>
+      <p><b>Learned Indexes</b><br/>Mathematical CDF regressions outperforming B-Trees in CPU cache.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3><a href="https://windhawk.net">Windhawk Mods</a></h3>
+      <p><code>C++</code> · <code>Win32</code> · <code>Hooks</code></p>
+      <p><b>OS Internals Tuning</b><br/>Thread-safe hooking, dynamic priority scheduling & RAM trimming.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
