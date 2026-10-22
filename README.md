@@ -20,29 +20,20 @@
 
 ### Core Engineering Focus
 
-<!-- OPTION 1: TABLE -->
-#### Option 1: Structured Table
-| Project | Domain | Tech Stack | Architecture & Role |
-| :--- | :--- | :--- | :--- |
-| **[wstrace](https://github.com/gilnett/wstrace)** | Windows Kernel Tracing | `Rust` `ETW` `Win32` | Zero-drop microsecond event capture, lock-free ring buffer & TUI |
-| **[learned_index_lab](https://github.com/gilnett/learned_index_lab)** | Learned Index Structures | `Rust` `PGM` `Eytzinger` | Mathematical CDF approximation replacing B-Trees in LSM/OLAP |
-| **[Windhawk Mods](https://windhawk.net)** | Windows Internals & Tuning | `C++` `Win32 Hooking` | Thread-safe OS injection, priority scheduling & memory trimming |
-
-<!-- OPTION 2: COMPACT MERMAID -->
-#### Option 2: Compact Graph
 ```mermaid
 graph LR
-    subgraph S1[" "]
-        ETW["Windows ETW"] -->|Zero-drop| W["wstrace"]
-        RAM["Cache Hierarchy"] -->|CDF PLA| P["learned_index_lab"]
-        WIN["Win32 Hooking"] -->|Injection| M["Windhawk Mods"]
-    end
+    ETW["Windows ETW"] -->|Zero-drop| W["wstrace"]
+    RAM["Cache Hierarchy"] -->|CDF PLA| P["learned_index_lab"]
+    WIN["Win32 Hooking"] -->|Injection| M["Windhawk Mods"]
 
     W --> TUI["Interactive TUI"]
     P --> DB["LSM / OLAP Engines"]
     M --> OS["Shell & OS Tuning"]
 
-    style S1 fill:none,stroke:none
+    click W "https://github.com/gilnett/wstrace" "Open wstrace repo"
+    click P "https://github.com/gilnett/learned_index_lab" "Open learned_index_lab repo"
+    click M "https://windhawk.net" "Open Windhawk mods"
+
     style W fill:#161b22,stroke:#58a6ff,stroke-width:2px,color:#fff
     style P fill:#161b22,stroke:#3fb950,stroke-width:2px,color:#fff
     style M fill:#161b22,stroke:#d29922,stroke-width:2px,color:#fff
@@ -53,28 +44,6 @@ graph LR
     style DB fill:#0d1117,stroke:#30363d,color:#8b949e
     style OS fill:#0d1117,stroke:#30363d,color:#8b949e
 ```
-
-<!-- OPTION 3: VISUAL CARDS -->
-#### Option 3: Visual Cards
-<table align="center" width="100%">
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <h3><a href="https://github.com/gilnett/wstrace">wstrace</a></h3>
-      <p><code>Rust</code> · <code>ETW</code> · <code>Kernel</code></p>
-      <p><b>Low-latency tracing</b><br/>Zero-drop syscall & API monitor via lock-free ring buffers.</p>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h3><a href="https://github.com/gilnett/learned_index_lab">learned_index_lab</a></h3>
-      <p><code>Rust</code> · <code>PGM</code> · <code>Math</code></p>
-      <p><b>Learned Indexes</b><br/>Mathematical CDF regressions outperforming B-Trees in CPU cache.</p>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h3><a href="https://windhawk.net">Windhawk Mods</a></h3>
-      <p><code>C++</code> · <code>Win32</code> · <code>Hooks</code></p>
-      <p><b>OS Internals Tuning</b><br/>Thread-safe hooking, dynamic priority scheduling & RAM trimming.</p>
-    </td>
-  </tr>
-</table>
 
 ---
 
