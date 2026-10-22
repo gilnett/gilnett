@@ -14,36 +14,12 @@
   <a href="https://ko-fi.com/gilnet"><img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white" alt="Ko-fi" /></a>
 </p>
 
+<p align="center">
+  Computer science student & open-source developer based in Belgium.<br/>
+  Passionate about low-level systems engineering (Rust & C++), gaming, and dogs.
+</p>
+
 </div>
-
----
-
-### Core Engineering Focus
-
-```mermaid
-graph LR
-    ETW["Windows ETW"] -->|Zero-drop| W["wstrace"]
-    RAM["Cache Hierarchy"] -->|CDF PLA| P["learned_index_lab"]
-    WIN["Win32 Hooking"] -->|Injection| M["Windhawk Mods"]
-
-    W --> TUI["Interactive TUI"]
-    P --> DB["LSM / OLAP Engines"]
-    M --> OS["Shell & OS Tuning"]
-
-    click W "https://github.com/gilnett/wstrace" "Open wstrace repo"
-    click P "https://github.com/gilnett/learned_index_lab" "Open learned_index_lab repo"
-    click M "https://windhawk.net" "Open Windhawk mods"
-
-    style W fill:#161b22,stroke:#58a6ff,stroke-width:2px,color:#fff
-    style P fill:#161b22,stroke:#3fb950,stroke-width:2px,color:#fff
-    style M fill:#161b22,stroke:#d29922,stroke-width:2px,color:#fff
-    style ETW fill:#0d1117,stroke:#30363d,color:#8b949e
-    style RAM fill:#0d1117,stroke:#30363d,color:#8b949e
-    style WIN fill:#0d1117,stroke:#30363d,color:#8b949e
-    style TUI fill:#0d1117,stroke:#30363d,color:#8b949e
-    style DB fill:#0d1117,stroke:#30363d,color:#8b949e
-    style OS fill:#0d1117,stroke:#30363d,color:#8b949e
-```
 
 ---
 
