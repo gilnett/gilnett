@@ -41,10 +41,10 @@ Author of production mods for the [Windhawk](https://windhawk.net/) platform, fo
 ### Activity & Performance Metrics
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gilnett&theme=github-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+  <img src="profile/activity-graph.svg" width="100%" alt="Activity Graph" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gilnett&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=1800" width="48%" alt="GitHub Stats" />
+  <img src="profile/stats.svg" width="48%" alt="GitHub Stats" />
   <img src="language-distribution.svg" width="48%" alt="Language Distribution" />
 </p>

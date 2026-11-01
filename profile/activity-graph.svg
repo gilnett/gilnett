@@ -1,0 +1,5 @@
+<svg width="800" height="260" viewBox="0 0 800 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="260" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="25" y="35" fill="#58a6ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600">Contribution Activity Graph</text>
+  <text x="400" y="140" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" text-anchor="middle">Activity graph will be generated on workflow run</text>
+</svg>
