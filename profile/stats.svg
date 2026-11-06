@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">gilnett&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 192, Total Commits  (last year) : 185, Total PRs: 100, Total Issues: 54, Contributed to (last year): 13</desc>
+        <desc id="descId">Total Stars Earned: 192, Total Commits  (last year) : 192, Total PRs: 103, Total Issues: 54, Contributed to (last year): 13</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 90.68286853918626;
+        stroke-dashoffset: 89.56092948468896;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >185</text>
+      >192</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >100</text>
+      >103</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
